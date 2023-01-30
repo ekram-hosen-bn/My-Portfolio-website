@@ -1,0 +1,122 @@
+@media all and (min-width: 960px) and (max-width: 1199px) { 
+    header {
+             padding: 20px 50px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 959px) {
+}
+@media all and (min-width: 480px) and (max-width: 767px){
+
+    header {
+     flex-direction: column;
+     /* margin-bottom: 15px; */
+     padding: 35px 15px;
+    }
+    /* header h2 {        
+        margin-bottom: 15px;
+        text-align: center;
+    } */
+    nav ul li {
+        margin: 0 5px;
+    }
+    ul li a {
+        font-size: 13px;
+    }
+
+    section.banner-area {
+        padding: 180px 30px;
+    }
+  
+   /* ***************************************************************** */
+    
+    .main {
+        flex-direction: column;
+ }
+
+ .content h1 {
+    font-size: 40px;
+    margin-top: 120px;
+}
+.content p {
+      margin: 30px;
+      font-size: 14px;
+}
+.content-button button {
+    width: 120px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+img.logo {
+    width: 90px;
+    height: auto;
+    margin-bottom: 20px;
+    }
+    .video{
+        width: 100%;
+        margin: 0 auto;
+    }
+    iframe {
+        width: 450px;
+        height:50vh;
+            }
+    .common {
+                width: 80%;
+                height: 100px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+.about-content {
+                padding: 20px;
+            }
+    .service-child-tracking {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-child-tracking {
+        width: 80%;
+        margin: 0 auto;
+        padding: 25px;
+        margin-bottom: 50px;
+    }
+    .image-responsive {
+        width: 100%;
+        height: auto;
+    }
+    .testimonial-child-tracking {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .contact-child-tracking {
+        width: 85%;
+        margin: 30px auto;
+        background: #EBEEEF;
+        padding: 20px 30px;
+        border-radius: 25px;
+        box-shadow: 5px 5px 5px 5px #ebeeef;
+        text-align: left;
+    }
+    .contact-child-form {
+        width: 98%;
+        margin: 0 auto;
+    }
+    footer{
+        height: auto;
+    }
+    .footer-main {
+        flex-direction: column;
+    }
+    .footer-child {
+        width: 100%;
+        margin: 0 auto;
+    }
+     
+}
+
+@media all and (max-width: 479px) {
+}
